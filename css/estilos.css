@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+#barraCabecera {
+ background-color: aquamarine;
+}
+
+#barraNavegacion {
+    display: grid;
+    grid-template-columns: 444px 444px 444px;
+    color: aliceblue;
+    font-family: 'Jua', sans-serif;
+    width: 100%;
+    background-color: rgb(66, 102, 219);
+    font-size: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+#ulPequenin {
+    margin-right: 100px;
+}
+
+.subtitulosBarra {
+    color: aliceblue;
+    text-decoration: none;
+}
+.ulsubtitulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 30px;
+    padding-right: 20px;
+}
+
+#imagennav {
+    width: 100px;
+}
+
+#divEnlaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 150px;
+}
